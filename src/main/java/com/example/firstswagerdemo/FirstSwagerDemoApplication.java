@@ -8,6 +8,7 @@ public class FirstSwagerDemoApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(FirstSwagerDemoApplication.class, args);
+int i=20;
 	}
 
 }
