@@ -17,6 +17,7 @@ public class JetAirwaysController {
 	@PostMapping(value={"/ticketBooking"},consumes = {"application/xml"},produces = {"application/json"})
 	public ResponseEntity<Ticket> bookTicket(@RequestBody Passenger passenger)
 	{
+		System.out.println("JetAirWaysController...");
 //		model.addAttribute("desc","welcome to jetairways");
 		
 		Ticket ticket=new Ticket();
